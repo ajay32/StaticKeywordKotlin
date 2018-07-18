@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.e.statickeywordkotlin.MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Print A"
+       />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/goto_java"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to java Activity"
+        />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/goto_kotlin"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Kotlin Activity"
+        />
+
+</LinearLayout>
